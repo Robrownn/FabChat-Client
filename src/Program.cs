@@ -53,12 +53,12 @@ namespace Chromely.CefSharp.Win
                 */
 
                 // Options 1 - real standard urls 
-                // string startUrl = "https://google.com";
+                string startUrl = "https://google.com";
 
                 // Options 2 - using local resource file handling with default/custom local scheme handler 
                 // Requires - (sample) UseDefaultResourceSchemeHandler("local", string.Empty)
                 //            or register new resource scheme handler - RegisterSchemeHandler("local", string.Empty,  new CustomResourceHandler())
-                string startUrl = "local://app/chromely.html";
+                // string startUrl = "local://app/chromely.html";
 
                 // Options 3 - using file protocol - using default/custom scheme handler for Ajax/Http requests
                 // Requires - (sample) UseDefaultResourceSchemeHandler("local", string.Empty)
